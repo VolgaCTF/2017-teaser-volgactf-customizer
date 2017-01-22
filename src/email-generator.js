@@ -21,7 +21,7 @@ export default class EmailGenerator {
     let htmlMessage = mustache.render(this.templates['welcome_html'], params)
 
     return {
-      subject: 'Welcome to VolgaCTF 2016 Quals!',
+      subject: 'Welcome to VolgaCTF 2017 Teaser!',
       plain: plainMessage,
       html: htmlMessage
     }

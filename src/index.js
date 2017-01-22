@@ -13,7 +13,7 @@ export default class DefaultCustomizer {
   }
 
   getEventTitle () {
-    return 'VolgaCTF 2016 Quals'
+    return 'VolgaCTF 2017 Teaser'
   }
 
   getPartials () {
